@@ -1,13 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Connor's Page</title>
+    <title>Jiggle Into JavaScript</title>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
 </head>
-
 <body>
-    <h1>Hello World</h1>    
+
+    <p id="Press">Press the buttons to change the box!</p>
+    <p id="Show" style="display:none">I can't believe you clicked that button!</p>
+
+    <div id="box" style="height:150px; width:150px; background-color:orange; margin:25px"></div>
+
+    <button type="button" onclick="Grow()">Grow</button>
+    <button type="button" onclick="Blue()">Blue</button>
+    <button type="button" onclick="Fade()">Fade</button>
+    <button type="button" onclick="Reset()">Reset</button>
+    <button type="button" onclick="ClickMe()">Click Me</button>
+    <button type="button" onclick="DoNot()">Do Not Click Me!</button>
+
+    
+    <script type="text/javascript" src="javascript.js"></script>
+
 </body>
 </html>
